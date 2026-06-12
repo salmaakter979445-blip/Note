@@ -1,0 +1,6 @@
+{
+  "name": "Quick Notes",
+  "description": "Quick Notes is a fast, offline-first note-taking app. Safely create, edit, pin, and organize color-coded notes locally on your phone.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
