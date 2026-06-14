@@ -1,4 +1,4 @@
-package com.example
+package com.quicknotes.app
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -12,8 +12,8 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
-import com.example.ui.*
-import com.example.ui.theme.MyApplicationTheme
+import com.quicknotes.app.ui.*
+import com.quicknotes.app.ui.theme.MyApplicationTheme
 
 class MainActivity : ComponentActivity() {
   private val viewModel: NoteViewModel by viewModels {

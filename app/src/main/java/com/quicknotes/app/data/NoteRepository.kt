@@ -1,4 +1,4 @@
-package com.example.data
+package com.quicknotes.app.data
 
 import kotlinx.coroutines.flow.Flow
 

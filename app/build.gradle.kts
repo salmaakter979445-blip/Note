@@ -7,13 +7,13 @@ plugins {
 }
 
 android {
-  namespace = "com.example"
-  compileSdk { version = release(36) { minorApiLevel = 1 } }
+  namespace = "com.quicknotes.app"
+  compileSdk = 36
 
   defaultConfig {
-    applicationId = "com.aistudio.quicknotes.yfkpmq"
+    applicationId = "com.quicknotes.app"
     minSdk = 24
-    targetSdk = 36
+    targetSdk = 35
     versionCode = 1
     versionName = "1.0"
 

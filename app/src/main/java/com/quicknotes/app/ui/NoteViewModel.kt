@@ -1,10 +1,10 @@
-package com.example.ui
+package com.quicknotes.app.ui
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.viewModelScope
-import com.example.data.Note
-import com.example.data.NoteRepository
+import com.quicknotes.app.data.Note
+import com.quicknotes.app.data.NoteRepository
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.flow.*
 import kotlinx.coroutines.launch

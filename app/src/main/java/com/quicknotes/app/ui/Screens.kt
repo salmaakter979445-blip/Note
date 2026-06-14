@@ -1,4 +1,4 @@
-package com.example.ui
+package com.quicknotes.app.ui
 
 import android.widget.Toast
 import androidx.compose.animation.*
@@ -29,7 +29,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.navigation.NavController
-import com.example.data.Note
+import com.quicknotes.app.data.Note
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
 import java.text.SimpleDateFormat
